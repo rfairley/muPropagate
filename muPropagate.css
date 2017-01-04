@@ -253,6 +253,7 @@ table {
   border-bottom: 1px #111111 solid;
   padding: 8px;
   align-items: flex-end;
+	overflow: visible;
 }
 
 .header-text {
@@ -262,6 +263,7 @@ table {
   line-height: 36px;
   position: relative;
   margin: 0px 4px;
+	display: inline-block;
 }
 
 .header-text-secondary {
@@ -360,4 +362,13 @@ table {
 .bubble-yes-edit {
   border-color: #34bef9;
   background: #0d083f;
+}
+
+.b-icon {
+	position: relative;
+	display: inline-block;
+}
+
+.link-none {
+	text-decoration: none;
 }
