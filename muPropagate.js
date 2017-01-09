@@ -7,6 +7,55 @@ var editKey = 0;
 var editIndex = 0;
 var showingInfo = false;
 
+var sampleTags = [
+  'radius',
+  'circumference',
+  'diameter',
+  'height',
+  'width',
+  'depth',
+  'length',
+  'concentration',
+  'volume',
+  'area',
+  'angle',
+  'mass',
+  'weight',
+  'force',
+  'temperature',
+  'atomic mass',
+  'resistance',
+  'voltage',
+  'current'
+];
+
+var sampleGroups = [
+  'circle',
+  'cylinder',
+  'pipette',
+  'rectangle',
+  'line',
+  'thermometer',
+  'volumetric flask'
+];
+
+var sampleUnits = [
+  'kg',
+  'm',
+  'Ohm',
+  'mL',
+  'L',
+  'mol/L',
+  'm*m',
+  'N',
+  'Cdeg',
+  'Fdeg',
+  'g',
+  'g/mol',
+  'V',
+  'A'
+];
+
 function Bubble(_key, _tag, _group, _unit, _value, _absUn) {
   // properties
   this.key = _key;
@@ -421,6 +470,21 @@ $(document).ready(function() {
         $('#b-info').css('display', 'flex');
     }
     showingInfo = !showingInfo;
+  });
+  $( "#new-tag" ).autocomplete({
+    source: sampleTags,
+    position: { my : "left bottom-32", of: "#new-tag" },
+    autoFocus: true
+  });
+  $( "#new-group" ).autocomplete({
+    source: sampleGroups,
+    position: { my : "left bottom-32", of: "#new-group" },
+    autoFocus: true
+  });
+  $( "#new-unit" ).autocomplete({
+    source: sampleUnits,
+    position: { my : "left bottom-32", of: "#new-unit" },
+    autoFocus: true
   });
 });
 
