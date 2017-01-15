@@ -110,7 +110,7 @@ function createBubble() {
   iBubble++;
 }
 
-// Add a new Bubble to the array using predefined inuts
+// Add a new Bubble to the array using predefined inputs
 function createNewBubble() {
   var _key = iBubble;
   var _tag = '[tag]';
@@ -119,7 +119,7 @@ function createNewBubble() {
   var _value = 0;
   var _absUn = 0;
   bubbleArray.push(new Bubble(_key, _tag, _group, _unit, _value, _absUn));
-  bubbleArray[iBubble].relUn = 0;
+  bubbleArray[getBubbleIndex(_key)].relUn = 0;
   iBubble++;
 }
 
