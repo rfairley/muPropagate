@@ -9,7 +9,7 @@ From information section on the website:
 
 muPropagate is a tool to speed up determination of final uncertainties. Instead of typing out long lines of operations and brackets in a standard calculator, data values and their uncertainties are stored in "Bubbles" which keep an updated uncertainty and fractional uncertainty attached to the data values.
 
-To begin, enter data into the form and hit the "New" button. All you need to do from then on is select as many Bubbles as you like to be included in the calculation, and then click the + or × to add or multiply all of the selected Bubbles together. If a subtraction or division is required, simply make the appropriate Bubbles negatives or reciprocals using the top-left Bubble buttons before the addition or multiplication.
+To begin, enter data into the form and hit the "New" button. All you need to do from then on is select as many Bubbles as you like to be included in the calculation, and then click the + or × buttons to add or multiply all of the selected Bubbles together. If a subtraction or division is required, simply make the appropriate Bubbles negatives or reciprocals using the top-left Bubble buttons before the addition or multiplication.
 
 Bubbles can be edited, and dragged and dropped at any time. Previous Bubbles remain visible in the upper section in case you need to reuse the data.
 
