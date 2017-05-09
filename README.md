@@ -18,3 +18,6 @@ The method used to calculate uncertainties and fractional uncertainties is as de
 All in all, enjoy using and keep an eye out for improvements and additional functionalities to come.
 
 -Robert, Jan. 2017
+
+External plugins used:
+math.js - for handling of unit representation
